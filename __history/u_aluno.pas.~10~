@@ -1,0 +1,32 @@
+unit u_aluno;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+  Tf_aluno = class(TForm)
+    procedure FormCreate(Sender: TObject);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  f_aluno: Tf_aluno;
+
+implementation
+
+{$R *.dfm}
+
+procedure Tf_aluno.FormCreate(Sender: TObject);
+begin
+
+  ShowMessage('True');
+  f_aluno.Show;
+end;
+
+end.

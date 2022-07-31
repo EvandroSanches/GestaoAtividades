@@ -1,0 +1,26 @@
+unit u_aluno;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs;
+
+type
+  Tf_aluno = class(TForm)
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  f_aluno: Tf_aluno;
+
+implementation
+
+{$R *.dfm}
+
+
+
+end.

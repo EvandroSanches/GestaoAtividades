@@ -1,0 +1,38 @@
+unit u_aluno;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, Vcl.ComCtrls, Vcl.Buttons;
+
+type
+  Tf_aluno = class(TForm)
+    pnl_fundo: TPanel;
+    pgc_aluno: TPageControl;
+    pg_aluno: TTabSheet;
+    pg_serie: TTabSheet;
+    SpeedButton1: TSpeedButton;
+    procedure FormClose(Sender: TObject; var Action: TCloseAction);
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  f_aluno: Tf_aluno;
+
+implementation
+
+{$R *.dfm}
+
+
+
+procedure Tf_aluno.FormClose(Sender: TObject; var Action: TCloseAction);
+begin
+  Action := caFree;
+  f_aluno := nil;
+end;
+
+end.

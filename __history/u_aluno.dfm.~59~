@@ -1,0 +1,23 @@
+object f_aluno: Tf_aluno
+  Left = 244
+  Top = 110
+  Align = alCustom
+  BorderIcons = []
+  BorderStyle = bsDialog
+  ClientHeight = 511
+  ClientWidth = 1034
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsMDIForm
+  OldCreateOrder = False
+  Position = poDesigned
+  Visible = True
+  StyleElements = [seFont, seClient]
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+end

@@ -1,0 +1,62 @@
+object f_aluno: Tf_aluno
+  Left = 244
+  Top = 110
+  Align = alCustom
+  BorderIcons = []
+  BorderStyle = bsDialog
+  ClientHeight = 511
+  ClientWidth = 1034
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  FormStyle = fsMDIForm
+  OldCreateOrder = False
+  Position = poDesigned
+  Visible = True
+  StyleElements = [seFont, seClient]
+  OnClose = FormClose
+  PixelsPerInch = 96
+  TextHeight = 13
+  object pnl_fundo: TPanel
+    Left = 0
+    Top = 0
+    Width = 1034
+    Height = 511
+    Align = alClient
+    BevelOuter = bvNone
+    TabOrder = 0
+    ExplicitTop = 160
+    ExplicitHeight = 351
+    object pgc_aluno: TPageControl
+      Left = 0
+      Top = 136
+      Width = 1034
+      Height = 375
+      ActivePage = pg_serie
+      Align = alBottom
+      Font.Charset = ANSI_CHARSET
+      Font.Color = clWindowText
+      Font.Height = -16
+      Font.Name = 'Arial'
+      Font.Style = [fsBold]
+      ParentFont = False
+      TabOrder = 0
+      object pg_aluno: TTabSheet
+        Caption = 'Aluno'
+        Font.Charset = ANSI_CHARSET
+        Font.Color = clWindowText
+        Font.Height = -16
+        Font.Name = 'Arial'
+        Font.Style = []
+        ParentFont = False
+      end
+      object pg_serie: TTabSheet
+        Caption = 'S'#233'rie'
+        ImageIndex = 1
+      end
+    end
+  end
+end

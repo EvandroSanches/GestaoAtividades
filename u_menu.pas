@@ -4,7 +4,8 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.Buttons, Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.Menus, Vcl.Buttons, Vcl.ExtCtrls, u_aluno,
+  Vcl.StdCtrls;
 
 type
   Tf_menu = class(TForm)
@@ -20,6 +21,8 @@ type
     procedure FormShow(Sender: TObject);
     procedure FormClose(Sender: TObject; var Action: TCloseAction);
     procedure btn_sairClick(Sender: TObject);
+    procedure btn_alunosClick(Sender: TObject);
+    procedure Button1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -33,6 +36,21 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure Tf_menu.btn_alunosClick(Sender: TObject);
+begin
+  if bExpandido then
+    if Assigned(f_aluno)then
+    begin
+      f_aluno.Show;
+    end
+    else
+    begin
+      f_aluno := Tf_aluno.Create(self);
+      f_aluno.Show;
+    end;
+
+end;
 
 procedure Tf_menu.btn_menuClick(Sender: TObject);
 begin
@@ -56,9 +74,16 @@ begin
     Application.Terminate;
 end;
 
+procedure Tf_menu.Button1Click(Sender: TObject);
+begin
+  f_aluno := tf_aluno.Create(self);
+  f_aluno.Show;
+end;
+
 procedure Tf_menu.FormClose(Sender: TObject; var Action: TCloseAction);
 begin
   Action := caFree;
+  f_menu := nil;
 end;
 
 procedure Tf_menu.FormShow(Sender: TObject);

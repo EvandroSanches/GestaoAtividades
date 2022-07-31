@@ -1,9 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2022/07/26 20:07:36.233,=C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/07/26 20:08:11.807,C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\u_menu.dfm=C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2022/07/26 20:08:11.807,C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\u_menu.pas=C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2022/07/26 20:12:37.229,C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Controle_de_Atividades.dproj=C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2022/07/26 20:07:36.000.233,=C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/07/26 20:08:11.000.807,C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\u_menu.pas</Transaction>
+    <Transaction>2022/07/26 20:08:11.000.807,C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\u_menu.dfm</Transaction>
+    <Transaction>2022/07/26 20:12:37.000.229,C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Controle_de_Atividades.dproj</Transaction>
+    <Transaction>2022/07/30 13:53:34.774,=C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/07/30 13:55:50.367,C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\u_aluno.dfm=C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2022/07/30 13:55:50.367,C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\u_aluno.pas=C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/07/30 14:59:25.954,=C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/07/30 14:59:35.934,C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\u_aluno.pas=C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2022/07/30 14:59:35.934,C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\u_aluno.dfm=C:\Users\evand\OneDrive\Documentos\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
   </Transactions>
 </BorlandProject>

@@ -3,7 +3,7 @@ object f_menu: Tf_menu
   Top = 0
   HorzScrollBar.Color = clBtnFace
   HorzScrollBar.ParentColor = False
-  BorderIcons = []
+  BorderIcons = [biMaximize]
   Caption = 'Sistema de Gerencimento de Atividades'
   ClientHeight = 495
   ClientWidth = 769
@@ -30,10 +30,6 @@ object f_menu: Tf_menu
     Color = clGray
     ParentBackground = False
     TabOrder = 0
-    ExplicitLeft = 144
-    ExplicitTop = 72
-    ExplicitWidth = 185
-    ExplicitHeight = 41
     object pnl_lateral: TPanel
       Left = 0
       Top = 0
@@ -577,6 +573,7 @@ object f_menu: Tf_menu
         Margin = 10
         ParentFont = False
         Spacing = 10
+        OnClick = btn_alunosClick
         ExplicitTop = 55
         ExplicitWidth = 81
       end
@@ -948,7 +945,6 @@ object f_menu: Tf_menu
         Color = clScrollBar
         ParentBackground = False
         TabOrder = 0
-        ExplicitWidth = 145
       end
     end
   end
